@@ -53,10 +53,9 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      {/* TODO: Remove this code
        <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} Arshad Ahmad
-      </p> */}
+      </p>
     </footer>
   )
 }

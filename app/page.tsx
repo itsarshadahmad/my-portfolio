@@ -5,13 +5,8 @@ export default function Page() {
                 Hi👋, I'm Arshad Ahmad
             </h1>
             <p className="mb-4">
-                {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+                {`I'm a full-stack developer with a Master's in Computer Applications and a year of professional experience. I specialize in both front-end and back-end development, focusing on building efficient and scalable digital solutions. My portfolio highlights projects that reflect my technical expertise, attention to detail, and commitment to continuous improvement. Thank you for visiting my site.`}
             </p>
-            <div className="my-8"></div>
         </section>
     );
 }

@@ -1,5 +1,4 @@
-// TODO: Replace with my host url
-export const baseUrl = "https://portfolio-blog-starter.vercel.app";
+export const baseUrl = "https://arshadahmad.vercel.app/";
 
 export default async function sitemap() {
     let routes = ["", "/og"].map((route) => ({

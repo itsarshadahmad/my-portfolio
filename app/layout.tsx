@@ -9,7 +9,8 @@ import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
 
 const title = "Arshad's Portfolio";
-const description = "This is my portfolio.";
+const description =
+    "Hello, I'm a full-stack developer with a Master's in Computer Applications and six months of professional experience. I specialize in both front-end and back-end development, focusing on building efficient and scalable digital solutions. My portfolio highlights projects that reflect my technical expertise, attention to detail, and commitment to continuous improvement. Thank you for visiting my site.";
 
 export const metadata: Metadata = {
     metadataBase: new URL(baseUrl),
@@ -53,7 +54,7 @@ export default function RootLayout({
             )}
         >
             <head>
-                <link rel="icon" href="/icon/icon.png" sizes="any" />
+                <link rel="icon" href="/icon/icon.ico" sizes="any" />
             </head>
             <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
                 <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
