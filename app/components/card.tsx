@@ -24,7 +24,7 @@ const Card = ({
         <div className="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 my-2">
             {imageUrl && (
                 <Image
-                    className="rounded-t-lg place-self-center mt-4"
+                    className="rounded-t-lg place-self-center mt-4 m-auto"
                     src={imageUrl}
                     alt=""
                     width={500}
