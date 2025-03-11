@@ -4,7 +4,7 @@ import { projects } from "data/projects";
 const Projects = () => {
     return (
         <div>
-            <h1 className="text-4xl mb-5">My Projects</h1>
+            <h1 className="text-4xl mb-5 font-semibold">My Projects</h1>
             <div className="flex flex-col w-full">
                 {projects.map((project, index) => (
                     <Card
