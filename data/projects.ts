@@ -3,8 +3,8 @@ import { CardType } from "app/components/card";
 export const projects: CardType[] = [
     {
         title: "Property Listing",
-        description: "Part of internship project at To-Let Globe.",
-        stacks: ["React.js", "Node.js", "Mongoose"],
+        description: "Developed a property listing web application during my internship at To-Let Globe using the MERN stack (MongoDB, Express.js, React, Node.js). The app enables users to browse, list, and manage rental properties with features like search, filters, user authentication, and real-time updates. Focused on building a responsive UI, optimizing backend APIs, and ensuring seamless user experience.",
+        stacks: ["React.js", "Node.js", "Mongoose", "Express.js"],
         github: "https://github.com/avinash-pandeyanf/property-listing",
         demo: "https://property-listing-theta.vercel.app/",
         imageUrl: "https://i.imgur.com/4X4MUku.png",
@@ -22,7 +22,7 @@ export const projects: CardType[] = [
         title: "Event App",
         description:
             "Event App is an event management tool built with React.js, Material-UI, Node.js, and MongoDB, offering streamlined event creation, attendee management, and real-time updates for seamless organization.",
-        stacks: ["React.js", "Node.js", "Mongoose"],
+        stacks: ["React.js", "Node.js", "Mongoose", "Express.js"],
         github: "https://github.com/itsarshadahmad/event-app",
         imageUrl: "https://i.imgur.com/pUSyNQP.png",
     },
@@ -30,7 +30,7 @@ export const projects: CardType[] = [
         title: "PostInk",
         description:
             "Post Ink is a full-stack platform built with React.js, Node.js, and MongoDB, featuring Redux for state management and Tailwind CSS for styling. It supports Google OAuth login, CRUD operations for blogs, and interactive features like likes and comments.",
-        stacks: ["React.js", "Node.js", "Mongoose"],
+        stacks: ["React.js", "Node.js", "Mongoose", "Express.js"],
         github: "https://github.com/itsarshadahmad/postink",
         imageUrl: "https://i.imgur.com/bTWIwwe.png",
     },
@@ -47,7 +47,7 @@ export const projects: CardType[] = [
         title: "Nasa Mission Control",
         description:
             "A NASA Mission Control team analyzes Kepler data to identify habitable exoplanets and generates a list of habitable planets. Data from SpaceX launches is also collected, so launch history and upcoming launches are also populated. In other words, it's a simulation of mission control software, so you can schedule any future mission in the simulated mission control web app. You can cancel missions and can see records in history and upcoming.",
-        stacks: ["React.js", "Node.js", "Mongoose"],
+        stacks: ["React.js", "Node.js", "Mongoose", "Express.js"],
         github: "https://github.com/itsarshadahmad/nasa-mission-control",
         imageUrl: "https://i.imgur.com/gRiRSoy.png",
     },
